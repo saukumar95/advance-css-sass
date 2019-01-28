@@ -14,9 +14,11 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, $color-primary-ligh, $color-primary-dark);
     -webkit-background-clip: text;
+    background-clip: "";
     color: transparent;
     letter-spacing: 2px;
     transition: all .2s;
+    text-shadow: .3rem 1rem 2rem rgba($color-black, .3);
 
     &:hover {
         transition: all .2s ease-in-out;
